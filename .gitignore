@@ -1,0 +1,8 @@
+# Obsidian per-device state (keep app/appearance/plugin settings, drop layout)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+
+# OS
+.DS_Store
+Thumbs.db

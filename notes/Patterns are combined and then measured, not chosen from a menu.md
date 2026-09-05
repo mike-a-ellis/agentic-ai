@@ -12,7 +12,7 @@ The five workflow patterns and the agent loop are not a list to pick one item fr
 The five workflow patterns and what triggers each:
 
 1. [[Prompt chaining trades latency for accuracy on fixed subtasks|Prompt chaining]]: the task splits cleanly into known sequential steps, and you'll accept slower for more accurate.
-2. [[Routing separates inputs so specialized prompts stop fighting each other|Routing]]: inputs fall into distinct categories that need different handling, and you can classify them reliably.
+2. [[Routing separates inputs so specialized prompts can be used independently|Routing]]: inputs fall into distinct categories that need different handling, and you can classify them reliably.
 3. [[Parallelization means sectioning or voting|Parallelization]]: subtasks are independent and can run at once (sectioning), or you want multiple attempts aggregated for confidence (voting).
 4. [[Orchestrator-workers is for tasks whose subtasks cannot be predicted|Orchestrator-workers]]: the subtasks depend on the input and can't be fixed in advance.
 5. [[Evaluator-optimizer needs criteria a model can apply|Evaluator-optimizer]]: there are explicit quality criteria, and iterating against them measurably improves the output.

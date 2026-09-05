@@ -13,7 +13,7 @@ The practical test: can you show, with an eval, that the added complexity improv
 
 Applies when: reviewing a design that jumps straight to multi-step or multi-agent. Ask what the single-call baseline scored.
 
-Related: [[Workflows and agents differ by who controls the path]]
+Related: [[Workflows and agents differ by who controls the path]], [[Patterns are combined and then measured, not chosen from a menu]]
 
 ## Cards
 
@@ -29,7 +29,8 @@ What is the fundamental pre-requisite and initially pre-cursor to adding complex
 Back: Evaluation, and measured baseline
 END
 
-START 
-Basic 
-A team proposes a multi-step agent for a task nobody has tried as a single LLM call. What's the first question, and why? 
-Back: What does a single call with retrieval and a few in-context examples score on the eval? Every layer above that (workflow, then agent) costs latency and money, so it has to beat the baseline by a measured margin to be worth building. END
+START
+Basic
+A team proposes a multi-step agent for a task nobody has tried as a single LLM call. What's the first question, and why?
+Back: What does a single call with retrieval and a few in-context examples score on the eval? Every layer above that (workflow, then agent) costs latency and money, so it has to beat the baseline by a measured margin to be worth building.
+END

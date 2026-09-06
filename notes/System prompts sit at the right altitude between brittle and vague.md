@@ -21,10 +21,12 @@ START
 Basic
 A system prompt reads "if the user mentions refunds, first check X, then if Y, do Z, unless W." What's wrong with it and what's the fix?
 Back: It's at the brittle end: hardcoded branching that breaks on unanticipated cases and is costly to maintain. Raise the altitude: state the goal and the heuristics, give a canonical example, let the model handle the branching.
+<!--ID: 1788645191017-->
 END
 
 START
 Basic
 What does it mean to give a system prompt "heuristics rather than rules," and why does it matter?
 Back: State the goal and the rules of thumb for reaching it, not an if-then list. Rules only cover the cases you wrote down; heuristics carry the intent, so the model can decide cases you didn't anticipate.
+<!--ID: 1788645191019-->
 END

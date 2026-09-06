@@ -23,4 +23,5 @@ START
 Basic
 Orchestrator-workers and parallelization look the same on a diagram. What separates them?
 Back: In parallelization the subtasks are defined in advance. In orchestrator-workers the orchestrator LLM decides the subtasks at runtime based on the input.
+<!--ID: 1788645191038-->
 END

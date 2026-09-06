@@ -21,16 +21,19 @@ START
 Basic
 What increases when you move from a single LLM call to a workflow to an agent, and what justifies it?
 Back: Latency and cost go up at each step. Only measured improvement in task outcomes justifies it; otherwise stay simpler.
+<!--ID: 1788645191062-->
 END
 
 START
 Basic
 What is the fundamental pre-requisite and initially pre-cursor to adding complexity (more LLM calls, more agency, etc)?
 Back: Evaluation, and measured baseline
+<!--ID: 1788645191063-->
 END
 
 START
 Basic
 A team proposes a multi-step agent for a task nobody has tried as a single LLM call. What's the first question, and why?
 Back: What does a single call with retrieval and a few in-context examples score on the eval? Every layer above that (workflow, then agent) costs latency and money, so it has to beat the baseline by a measured margin to be worth building.
+<!--ID: 1788645191065-->
 END

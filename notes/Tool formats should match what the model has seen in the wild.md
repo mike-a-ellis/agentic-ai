@@ -23,10 +23,12 @@ START
 Basic
 Your edit tool takes changes as unified diffs and the model keeps producing malformed ones. What's the likely cause and the fix?
 Back: The diff format forces the model to count lines for the hunk header before writing the code. Switch to a format with no bookkeeping, such as old-string/new-string replacement or rewriting the whole file.
+<!--ID: 1788645190998-->
 END
 
 START
 Basic
 Why is returning code inside a JSON string worse for a model than returning it in a markdown block, when both carry the same content?
 Back: JSON requires escaping every newline and quote, so the model has to transform the code as it writes. Markdown code blocks appear naturally in training text and need no escaping.
+<!--ID: 1788645191000-->
 END

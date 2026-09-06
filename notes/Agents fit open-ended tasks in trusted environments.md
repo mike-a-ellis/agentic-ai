@@ -21,10 +21,12 @@ START
 Basic
 You're deciding whether a problem needs a full agent rather than a workflow. What two questions decide it?
 Back: 1) Is the step count unpredictable, with no fixed path you could hardcode? 2) Can mistakes be contained (trusted environment, sandboxed testing, guardrails)? Both need a yes.
+<!--ID: 1788645191055-->
 END
 
 START
 Basic
 Why do agents need sandboxed testing and guardrails more than workflows do?
 Back: Errors compound. The agent chooses its own next step, so one wrong step feeds the next and the model may run many turns before anything catches it.
+<!--ID: 1788645191057-->
 END

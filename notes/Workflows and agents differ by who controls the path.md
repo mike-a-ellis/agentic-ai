@@ -21,4 +21,5 @@ START
 Basic
 A proposed system has an LLM call five tools in a fixed order, with code checking each result. Workflow or agent, and why?
 Back: Workflow. Code owns the control flow; the LLM only fills in steps. It becomes an agent when the LLM decides which tool to call next and when to stop.
+<!--ID: 1788645191002-->
 END

@@ -21,4 +21,5 @@ START
 Basic
 Beyond running work in parallel, what does a sub-agent architecture do for context?
 Back: It isolates the exploration context. Each sub-agent spends its own window searching and returns a short distilled summary, so the lead agent's window holds only results, not the search trail.
+<!--ID: 1788645191021-->
 END

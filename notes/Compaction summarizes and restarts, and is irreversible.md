@@ -23,16 +23,19 @@ START
 Basic
 You're tuning a compaction prompt for an agent. Which do you optimize first, recall or precision, and why?
 Back: Recall first, on real complex traces, so nothing critical is dropped. Then precision to cut noise. Over-aggressive compaction loses details whose importance only shows up later.
+<!--ID: 1788645191050-->
 END
 
 START
 Basic
 What is the lightest-touch form of compaction, and why is it safe?
 Back: Clearing old tool results from the history. A raw tool result deep in the conversation almost never needs to be re-read in full; the agent already acted on it.
+<!--ID: 1788645191052-->
 END
 
 START
 Basic
 What's the structural weakness shared by compaction, memory files, and tool-result clearing, and how does Anthropic's Managed Agents design address it?
 Back: All three are irreversible; you can't know which tokens later turns will need. Managed Agents keeps a durable session log outside the context window that the harness can re-read by position, so the decision is recoverable.
+<!--ID: 1788645191054-->
 END

@@ -21,10 +21,12 @@ START
 Basic
 Your agent keeps passing bad file paths to an edit tool after it has cd'd around the repo. What did Anthropic do in the same situation?
 Back: Changed the tool to require absolute paths instead of fixing the prompt. Poka-yoke the tool so the mistake cannot be made.
+<!--ID: 1788645191007-->
 END
 
 START
 Basic
 What does ACI stand for and what is the rule of thumb attached to it?
 Back: Agent-computer interface. Invest as much effort in it as you would in a human-computer interface; tool descriptions are prompts.
+<!--ID: 1788645191009-->
 END

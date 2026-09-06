@@ -21,4 +21,5 @@ START
 Basic
 An agent degrades after twenty turns. The team's fix is to rewrite the system prompt. Why is that probably the wrong lever?
 Back: The system prompt is a small fixed part of context. After twenty turns most of the window is message history and tool results. Context engineering means curating that whole set each turn, not just the instructions.
+<!--ID: 1788645191043-->
 END

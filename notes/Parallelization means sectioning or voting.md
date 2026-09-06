@@ -23,4 +23,5 @@ START
 Basic
 Parallelization has two variants. Name them and give the distinguishing feature of each.
 Back: Sectioning splits a task into independent parts run at once. Voting runs the same task multiple times and aggregates the answers.
+<!--ID: 1788645191030-->
 END

@@ -19,4 +19,5 @@ START
 Basic
 Three tasks: (a) a long design conversation with a user, (b) a codebase migration with checkpoints, (c) a literature review across many sources. Which long-horizon technique fits each?
 Back: (a) Compaction, to preserve conversational flow. (b) Structured notes, to track milestones across resets. (c) Sub-agents, so exploration stays isolated and the lead gets summaries.
+<!--ID: 1788645191028-->
 END

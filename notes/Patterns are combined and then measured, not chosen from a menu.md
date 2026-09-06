@@ -31,10 +31,12 @@ START
 Basic
 Name the five workflow patterns from Anthropic's agents post and give the one-line trigger for each.
 Back: Prompt chaining (fixed sequential steps, trade latency for accuracy). Routing (distinct input categories, reliable classifier). Parallelization (independent subtasks, or voting for confidence). Orchestrator-workers (subtasks unknown until you see the input). Evaluator-optimizer (explicit criteria, iteration helps).
+<!--ID: 1788645191035-->
 END
 
 START
 Basic
 A design combines a router feeding into an orchestrator whose workers each run an evaluator loop. Is that overbuilt?
 Back: Can't tell from the diagram. Patterns are meant to be combined; the eval decides. Add each layer separately and keep it only if the score moved.
+<!--ID: 1788645191037-->
 END

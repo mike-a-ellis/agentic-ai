@@ -6,3 +6,6 @@
 # OS
 .DS_Store
 Thumbs.db
+
+# Plugin settings that embed local machine paths
+.obsidian/plugins/obsidian-to-anki-plugin/data.json

@@ -23,10 +23,12 @@ START
 Basic
 A team wants to embed and pre-retrieve every document an agent might need, then stuff the top results into context. What's the just-in-time alternative and when does it win?
 Back: Keep only identifiers (paths, queries, links) in context and load content on demand with tools. Wins when data is large or changes often, or when metadata like paths and timestamps helps the agent decide what to read. Costs speed and needs good navigation tools.
+<!--ID: 1788645191032-->
 END
 
 START
 Basic
 Claude Code loads CLAUDE.md up front but finds source files with glob and grep. Why the split?
 Back: CLAUDE.md is small, stable, and always relevant, so pre-loading is cheap. Source files are large and task-dependent, so fetching just-in-time avoids stale indexes and keeps context tight. That's the hybrid strategy.
+<!--ID: 1788645191033-->
 END

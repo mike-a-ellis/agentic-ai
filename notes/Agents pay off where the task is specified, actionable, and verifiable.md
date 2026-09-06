@@ -21,16 +21,19 @@ START
 Basic
 A team wants to hand a task to a scheduled, headless agent. What four things do you check first?
 Back: Can the task be fully specified before the run, can the agent act on it with tools, can success be checked automatically, and is there a defined point where a human reviews. If the spec can't be written down, stop there.
+<!--ID: 1788645191045-->
 END
 
 START
 Basic
 Headless agents handle dependency bumps and codemods well but fail on ambiguous requirements and unwritten team conventions. What property do the failures have in common?
 Back: The task can't be fully specified in writing before the run. The agent has no way to resolve the ambiguity mid-task.
+<!--ID: 1788645191047-->
 END
 
 START
 Basic
 Coding is a reference agent domain. What supplies the feedback loop, and what still needs a human?
 Back: Automated tests supply the feedback signal; the agent iterates on failures. A human still reviews whether the change fits the broader system, which tests don't check.
+<!--ID: 1788645191048-->
 END

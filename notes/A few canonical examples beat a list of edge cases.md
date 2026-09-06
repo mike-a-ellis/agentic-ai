@@ -19,4 +19,5 @@ START
 Basic
 Every time a bug report comes in, the team adds another example to the prompt. It now has thirty. What's the problem and what should they do instead?
 Back: They're enumerating edge cases, which bloats context and never finishes. Replace with a handful of diverse canonical examples that show the pattern, and let the model generalize.
+<!--ID: 1788645191069-->
 END

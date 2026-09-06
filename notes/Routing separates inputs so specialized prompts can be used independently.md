@@ -23,10 +23,12 @@ START
 Basic
 Why route inputs to separate prompts instead of tuning one prompt to handle everything?
 Back: Optimizing one prompt for one input type degrades it on the others. Routing lets each path be tuned independently.
+<!--ID: 1788645191023-->
 END
 
 START
 Basic
 For the routing workflow model, what precondition must be met ?
 Back: The classifier has to be accurate as it determines the route.
+<!--ID: 1788645191024-->
 END

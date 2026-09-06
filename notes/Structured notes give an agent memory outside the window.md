@@ -23,4 +23,5 @@ START
 Basic
 An agent doing a multi-hour migration loses track of which modules it already converted after each compaction. What technique fixes that, and what does the fix look like concretely?
 Back: Structured note-taking. The agent writes progress to a file outside context (a NOTES.md or memory directory) and re-reads it after each reset. Compaction summaries alone are too lossy for this kind of state.
+<!--ID: 1788645191016-->
 END

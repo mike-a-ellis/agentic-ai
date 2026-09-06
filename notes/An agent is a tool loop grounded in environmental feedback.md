@@ -21,11 +21,13 @@ START
 Basic
 An agent design has no test runner, no tool results fed back, and no iteration cap. What is wrong with it?
 Back: It has no ground truth from the environment to check progress against, and no stopping condition. Agents need both a feedback signal each step and a way to halt.
+<!--ID: 1788645191066-->
 END
 
 START
 Basic
 What is the most basic definition of an agent?
 Back: an LLM autonomously using tools in a loop, with autonomy scaling as models improve.
+<!--ID: 1788645191068-->
 END
 

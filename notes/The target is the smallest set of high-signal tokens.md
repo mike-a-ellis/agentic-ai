@@ -21,10 +21,12 @@ START
 Basic
 What is the one-sentence goal of context engineering, and what does "minimal" not mean?
 Back: The smallest set of high-signal tokens that maximizes the chance of the desired outcome. Minimal does not mean short; it means nothing present that isn't doing work.
+<!--ID: 1788645191011-->
 END
 
 START
 Basic
 You're starting a new agent's system prompt. What's the recommended order of operations?
 Back: Start minimal on the best model available, run it, then add instructions and examples only for the failure modes you actually observe. Don't pre-load rules for problems you haven't seen.
+<!--ID: 1788645191012-->
 END

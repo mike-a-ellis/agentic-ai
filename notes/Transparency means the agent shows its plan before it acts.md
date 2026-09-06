@@ -21,4 +21,5 @@ START
 Basic
 Anthropic gives three principles for building agents. Name them.
 Back: Simplicity in the design, transparency by showing the agent's planning steps, and careful tool documentation and testing (the ACI).
+<!--ID: 1788645190995-->
 END

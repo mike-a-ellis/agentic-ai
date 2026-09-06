@@ -21,4 +21,5 @@ START
 Basic
 You upgrade an agent to a newer model and everything still works. What should you do with the harness anyway, and why?
 Back: Re-test each workaround and remove the ones the new model no longer needs. Scaffolding encodes assumptions about model weaknesses; those go stale and become dead weight (Anthropic's context resets for Sonnet 4.5 were unnecessary on Opus 4.5).
+<!--ID: 1788645191040-->
 END

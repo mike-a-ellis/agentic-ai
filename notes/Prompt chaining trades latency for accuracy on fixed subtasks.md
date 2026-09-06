@@ -23,4 +23,5 @@ START
 Basic
 When chaining prompts, what can be inserted between prompts ? What is the purpose of these?
 Back: Programmatic Gates, These gates or checks ensure a process is still on track.
+<!--ID: 1788645191026-->
 END
